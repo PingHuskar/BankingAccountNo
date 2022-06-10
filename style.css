@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+nav {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background: rgba(0, 255, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 100vh;
+  max-width: 10vw;
+  min-width: 90px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 10vh;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li img {
+  height: 10vh;
+}
+
+nav ul li img:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container {
+  margin-top: 25vh;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+section .container h1#bankname {
+  font-size: 10vh;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+section .container #accNo {
+  font-size: 9vh;
+}
+/*# sourceMappingURL=style.css.map */
